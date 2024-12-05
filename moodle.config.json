@@ -1,0 +1,82 @@
+{
+    "app_id": "com.EduExcellence.app",
+    "appname": "EduExcellence",
+    "versioncode": 44012,
+    "versionname": "1.0.0",
+    "cache_update_frequency_usually": 420000,
+    "cache_update_frequency_often": 1200000,
+    "cache_update_frequency_sometimes": 3600000,
+    "cache_update_frequency_rarely": 43200000,
+    "default_lang": "en",
+    "languages": {
+        "ar": "العربية",
+        "en": "English"    },
+    "wsservice": "moodle_mobile_app",
+    "demo_sites": {
+        "student": {
+            "url": "https://eduexcellence.cloud/",
+            "username": "student",
+            "password": "moodle"
+        },
+        "teacher": {
+            "url": "https://eduexcellence.cloud/",
+            "username": "teacher",
+            "password": "moodle"
+        }
+    },
+    "defaultZoomLevel": "none",
+    "zoomlevels": {
+        "none": 100,
+        "medium": 110,
+        "high": 120
+    },
+    "customurlscheme": "moodlemobile",
+    "sites": [{"url":"https://eduexcellence.cloud/"}],
+    "multisitesdisplay": "",
+    "sitefindersettings": {},
+    "onlyallowlistedsites": false,
+    "forcedefaultlanguage": false,
+    "privacypolicy": "https://moodle.net/moodle-app-privacy/",
+    "notificoncolor": "#2e6e6f",
+    "enableanalytics": false,
+    "enableonboarding": true,
+    "forceColorScheme": "",
+    "forceLoginLogo": false,
+    "ioswebviewscheme": "moodleappfs",
+    "appstores": {
+        "android": "com.eduexcellence.app",
+        "ios": "id633359593"
+    },
+    "wsrequestqueuelimit": 10,
+    "wsrequestqueuedelay": 100,
+    "calendarreminderdefaultvalue": 3600,
+    "toastDurations": {
+        "short": 2000,
+        "long": 3500,
+        "sticky": 0
+    },
+    "disableTokenFile": false,
+    "iconsPrefixes": {
+        "font-awesome": {
+            "brands": [
+                "fab"
+            ],
+            "regular": [
+                "far"
+            ],
+            "solid": [
+                "fa",
+                "fas"
+            ]
+        },
+        "moodle": {
+            "font-awesome": [
+                "fam"
+            ],
+            "moodle": [
+                "moodle"
+            ]
+        }
+    },
+    "clearIABSessionWhenAutoLogin": "android"
+}
